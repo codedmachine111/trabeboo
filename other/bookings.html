@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./bookings.css">
+    <title>Bookings | Trabebo - Travel made easy.</title>
+</head>
+<body>
+    <div class="container" id="top">
+        <nav>
+
+            <div class="logo">
+                <a href="#"><span>T</span> rabebo</a>
+                <p>Travel made easy</p>
+            </div>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul class="list">
+
+                <li><a href="../index.html" id="d">Home</a></li>
+                <li  id="active"><a href="#book" id="homeli">Book</a></li>
+                <li><a href="../other/contact.html" id="d" >Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="contact" id="contact">
+            <h2>Book your tickets <hr></h2>
+<div class="row">
+    <div class="img">
+        <img src="../media/bookings.png" id="contactimg">
+    </div>
+    <form class="form">
+        <div class="inputbox">
+            <h3>Your Name*</h3>
+            <input type="text" placeholder="Name" required>
+        </div>
+        <div class="inputbox">
+            <h3>Email Address*</h3>
+            <input type="email" id="email" placeholder="abc@gmail.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        </div> 
+        <div class="inputbox">
+            <h3>Contact Number*</h3>
+            <input type="tel" placeholder="Number" required pattern="[0-9]{10}">
+        </div>
+        <div class="inputbox">
+            <h3>Choose Your destination</h3>
+            <select name="place" id="place" required>
+                <option value="1"></option>
+                <option value="2">Manali</option>
+                <option value="2">Goa</option>
+                <option value="2">Kerala</option>
+                <option value="2">Kasol</option>
+                <option value="2">Rajasthan</option>
+            </select>
+        
+        </div>
+        
+        <div class="inputbox">
+            <h3>Enter the number of people</h3>
+            <input type="number" min="1" max="15" placeholder="number"required>
+        </div>
+        <div class="inputbox">
+            <h3>Arrival</h3>
+            <input type="date" id="cap" required>
+        </div>
+        <div class="inputbox">
+            <h3>Departure</h3>
+            <input type="date"  id="cap" required>
+        </div>
+        <div class="sub-btn">
+            <button class="subbtn">Book now</button>
+        </div>
+    </form>
+</div>
+        </section>
+        <hr id="line">
+        <section class="how" id="how">
+            <div class="contbox">
+                <h2>We will get back to you with a confirmation.<hr></h2>
+                <p>Please submit the form above and we will get back to you as soon as possible to confirm your packages and book your tickets smoothly in the shortest period of time.</p>
+                <p><b>(The process might take around 5-10 minutes.)</b></p>
+                <p>Thankyou for choosing us. You will not be disappointed.</p>
+            </div>
+        </section>
+        <div class="callbox">
+            <i class="fas fa-phone"></i> +91-7654772728
+            </div>
+            <div class="callbox">
+                <i class="fas fa-briefcase"></i> 0836-5556765
+                </div>
+                <div class="callbox">
+                    <i class="fas fa-envelope"></i> info.trabebo@gmail.com
+                    </div>
+    </div>
+    <div class="container2" id="down">
+        <footer class="footer">
+            <div class="fbox">
+                <div class="aboutus">
+                    <h2><span id="fdiff">A</span>bout us</h2>
+                    <p><span id="fdiff">T</span>rabebo</p>
+                    <p>Travel made easy</p>
+                    <br>
+                    <p>We expertise in providing you with the best services in the shortest amount of time and making your travel experience run smoothly.</p>
+                </div>
+                <div class="branch">
+                    <h2><span id="fdiff">B</span>ranch Location</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3847.2195600952487!2d75.12117641437735!3d15.364590962016948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d7356f725b09%3A0xe85a2e8c0e433478!2sOaks%202.0!5e0!3m2!1sen!2sin!4v1633436419361!5m2!1sen!2sin"  style="border:0;" id="map"  allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="quicklinks">
+                    <h2> <span id="fdiff">Q</span>uick Links</h2>
+                    <ul>
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="../other/bookings.html">Book</a></li>
+                        <li><a href="../other/contact.html">Contact</a></li>   
+                        
+                    </ul>
+                </div>
+                <div class="follow">
+                    <h2><span id="fdiff">F</span>ollow us</h2>
+                    <ul>
+                        <li><a href="#" id="instagram"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" id="facebook"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#" id="twitter"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+            
+                </div>
+            </div>
+            <hr>
+            <div class="copy">
+                <h2>Copyright &copy; <span id="fdiff">T</span>rabebo 2020-21 | All Rights Reserved</h2>
+            </div>
+            </footer>
+    </div>
+</body>
+</html>
