@@ -866,6 +866,10 @@ align-items: center;
         font-size: 0.5rem;
         height: 7vh;
     }
+    .quicklinks ul{
+        display: contents;
+    }
+    
     }
     
 
