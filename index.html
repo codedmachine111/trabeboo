@@ -2,527 +2,454 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;500;600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./style.css">
-    <title> Home | Trabebo- Travel made easy.</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;500;600&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Home | Trabebo - Travel made easy.</title>
 </head>
 
 <body>
-    <div class="container" id="top">
-        <nav>
+  <div class="container" id="top">
+    <nav>
+      <div class="logo">
+        <a href="#"><span>T</span> rabebo</a>
+        <p>Travel made easy</p>
+      </div>
 
-            <div class="logo">
-                <a href="#"><span>T</span> rabebo</a>
-                <p>Travel made easy</p>
-            </div>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <ul class="list">
+        <li id="active"><a href="/" id="homeli">Home</a></li>
+        <li><a href="./other/bookings.html" id="d">Book</a></li>
+        <li id="drop">
+          <a href="#" id="d">Domestic</a>
+          <ul>
+            <li><a href="./locations/goa/goa.html" id="d">Goa</a></li>
+            <li>
+              <a href="./locations/uttrakhand/uttrakhand.html" id="d">Uttrakhand</a>
+            </li>
+            <li>
+              <a href="./locations/kerala/kerala.html" id="d">Kerala</a>
+            </li>
+            <li>
+              <a href="./locations/chennai/chennai.html" id="d">Chennai</a>
+            </li>
+            <li><a href="./locations/delhi/delhi.html" id="d">Delhi</a></li>
+            <li>
+              <a href="./locations/rajashthan/rajasthan.html" id="d">Rajasthan</a>
+            </li>
+            <li><a href="./other/places.html" id="d">View all...</a></li>
+          </ul>
+        </li>
+        <li id="drop">
+          <a href="#" id="d">International</a>
+          <ul>
+            <li><a href="./locations/dubai/dubai.html" id="d">Dubai</a></li>
+            <li><a href="#book" id="d">Europe</a></li>
+            <li><a href="#book" id="d">Srilanka</a></li>
+            <li><a href="#book" id="d">Thailand</a></li>
+            <li><a href="#book" id="d">Maldives</a></li>
+            <li><a href="#book" id="d">View all...</a></li>
+          </ul>
+        </li>
+        <li><a href="#packages" id="d">Packages</a></li>
+        <li><a href="#service" id="d">Services</a></li>
+        <li><a href="./other/contact.html" id="d">Contact</a></li>
+      </ul>
+    </nav>
 
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fa fa-bars"></i>
-            </label>
-            <ul class="list">
-
-                <li id="active"><a href="#" id="homeli">Home</a></li>
-                <li><a href="./other/bookings" id="d">Book</a></li>
-                <li id="drop"><a href="#" id="d">Domestic</a>
-                    <ul>
-                        <li><a href="#book" id="d">Manali</a></li>
-                        <li><a href="#book" id="d">Goa</a></li>
-                        <li><a href="#book" id="d">Kerala</a></li>
-                        <li><a href="#book" id="d">Ladakh</a></li>
-                        <li><a href="#book" id="d">Kasol</a></li>
-                        <li><a href="#book" id="d">Rajasthan</a></li>
-                    </ul>
-                </li>
-                <li id="drop"><a href="#" id="d">International</a>
-                    <ul>
-                        <li><a href="./locations/dubai.html" id="d">Dubai</a></li>
-                        <li><a href="#book" id="d">Singapore</a></li>
-                        <li><a href="#book" id="d">Andaman</a></li>
-                        <li><a href="#book" id="d">Bali</a></li>
-                        <li><a href="#book" id="d">Thailand</a></li>
-                        <li><a href="#book" id="d">Las Vegas</a></li>
-                    </ul>
-                </li>
-                <li><a href="#packages" id="d">Packages</a></li>
-                <li><a href="#service" id="d">Services</a></li>
-                <li><a href="#contact" id="d">Contact</a></li>
-            </ul>
-        </nav>
-
-        <!-- <div class="search">
-        <div class="inp">
-            <input type="text" placeholder="Search for places">
-            <i class="fas fa-search"></i>
-        </div> -->
-        <section class="home" id="home">
-
-            <div class="content">
-                <h3>Begin your adventures with us</h3>
-                <p>Explore the world with us for the best travel experience</p>
-                <div class="btn">
-                    <button class="exp-btn">Explore</button>
-                </div>
-            </div>
-            
-            <!-- <div class="controls">
-                <span class="vid-btn active" data-src="./media/Trees.mp4"></span>
-                <span class="vid-btn" data-src="./media/water-bg.mp4"></span>
-                <span class="vid-btn" data-src="./media/beach-bg.mp4"></span>
-                <span class="vid-btn" data-src="./media/evening-bg.mp4"></span>
-                <span class="vid-btn" data-src="./media/city-bg.mp4"></span>
-               
-            </div> -->
-            <div class="video-container">
-                <video src="./media/water-bg.mp4" id="video-slider" loop autoplay muted></video>
-        
-            </div>
-                
-            <div class="info">
-                <div class="mail">
-                    <i class="fas fa-envelope" id="ficons"></i>
-                    <p><a href="mailto:info.trabebo@gmail.com">info.trabebo@gmail.com</a></p>
-                </div>
-                <div class="socialm">
-                    <i class="fab fa-instagram" id="ficons"></i>
-                    <p>trabebo_1</p>
-                </div>
-                <div class="call">
-                    <i class="fas fa-phone-alt" id="ficons"></i>
-                    <p><a href="tel:7259987584">+91-7259987584</a></p>
-                </div>
-            </div>
-        </section>
-        
-          
-        
-    </div>
-    <hr id="line">
-<div class="container2">
-    <section class="book" id="book">
-        <h1> Book your tickets now!</h1>
-
-        <div class="row">
-            <div class="image">
-                <img src="./media/booking.png" id="flyimg">
-            </div>
-            <div class="box">
-                <h2>Book Your tickets <hr></h2>
-                <p>One step away from booking your trip! What are you waiting for?</p>
-                <a href="#">
-                    <div class="btn">
-                        <button class="book-btn">Book now</button>
-                    </div>
-                </a>
-               
-            </div>
-        </div>
-    </section>
-
-</div>
-<hr id="line">
-<div class="container3">
-    <section class="packages" id="packages">
-<h1>Best Selling Destinations!</h1> 
-        <div class="outerbox">
-            <h2>Domestic <hr></h2>
-            <div class="row1">
-                <div class="card">
-                    <div class="img">
-                        <img src="./media/shimla.jpg" id="placeimg">
-                    </div>
-                    <div class="cont">
-                        <div class="name">
-                            <i class="fas fa-map-marker-alt"></i> Manali
-                        </div>
-                        <div class="abt">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat repudiandae iste veritatis cumque vitae!
-                        </div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div class="price">
-                            $200 6D/5N
-                        </div>
-                        <div class="go-btn">
-                            <button class="gobtn">Book now</button>
-                        </div>
-                    </div>
-                    
-                
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img src="./media/goa.jpg" id="placeimg">
-                    </div>
-                    <div class="cont">
-                        <div class="name">
-                            <i class="fas fa-map-marker-alt"></i> Goa
-                        </div>
-                        <div class="abt">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat repudiandae iste veritatis cumque vitae!
-                        </div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div class="price">
-                            $200 6D/5N
-                        </div>
-                        <div class="go-btn">
-                            <button class="gobtn">Book now</button>
-                        </div>
-                    </div>
-                    
-                
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img src="./media/keralabg.jpg" id="placeimg">
-                    </div>
-                    <div class="cont">
-                        <div class="name">
-                            <i class="fas fa-map-marker-alt"></i> Kerala
-                        </div>
-                        <div class="abt">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat repudiandae iste veritatis cumque vitae!
-                        </div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div class="price">
-                            $200 6D/5N
-                        </div>
-                        <div class="go-btn">
-                            <button class="gobtn">Book now</button>
-                        </div>
-                    </div>
-                    
-                
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img src="./media/Coorg.jpg" id="placeimg">
-                    </div>
-                    <div class="cont">
-                        <div class="name">
-                            <i class="fas fa-map-marker-alt"></i> Coorg
-                        </div>
-                        <div class="abt">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat repudiandae iste veritatis cumque vitae!
-                        </div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div class="price">
-                            $200 6D/5N
-                        </div>
-                        <div class="go-btn">
-                            <button class="gobtn">Book now</button>
-                        </div>
-                    </div>
-                    
-                
-                </div>
-            </div>
-            <h2>International <hr></h2>
-            <div class="row2">
-                <div class="card">
-                    <div class="img">
-                        <img src="./media/dubai.jpg" id="placeimg">
-                    </div>
-                    <div class="cont">
-                        <div class="name">
-                            <i class="fas fa-map-marker-alt"></i> Dubai
-                        </div>
-                        <div class="abt">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat repudiandae iste veritatis cumque vitae!
-                        </div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div class="price">
-                            $200 6D/5N
-                        </div>
-                        <div class="go-btn">
-                            <a href="./locations/dubai.html"><button class="gobtn">Book now</button></a>
-                            
-                        </div>
-                    </div>
-                    
-                
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img src="./media/singapore.jpg" id="placeimg">
-                    </div>
-                    <div class="cont">
-                        <div class="name">
-                            <i class="fas fa-map-marker-alt"></i> Singapore
-                        </div>
-                        <div class="abt">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat repudiandae iste veritatis cumque vitae!
-                        </div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div class="price">
-                            $200 6D/5N
-                        </div>
-                        <div class="go-btn">
-                            <button class="gobtn">Book now</button>
-                        </div>
-                    </div>
-                    
-                
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img src="./media/andaman.jpg" id="placeimg">
-                    </div>
-                    <div class="cont">
-                        <div class="name">
-                            <i class="fas fa-map-marker-alt"></i> Andaman Islands
-                        </div>
-                        <div class="abt">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat repudiandae iste veritatis cumque vitae!
-                        </div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div class="price">
-                            $200 6D/5N
-                        </div>
-                        <div class="go-btn">
-                            <button class="gobtn">Book now</button>
-                        </div>
-                    </div>
-                    
-                
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img src="./media/bali.jpg" id="placeimg">
-                    </div>
-                    <div class="cont">
-                        <div class="name">
-                            <i class="fas fa-map-marker-alt"></i> Bali
-                        </div>
-                        <div class="abt">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat repudiandae iste veritatis cumque vitae!
-                        </div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div class="price">
-                            $200 6D/5N
-                        </div>
-                        <div class="go-btn">
-                            <button class="gobtn">Book now</button>
-                        </div>
-                    </div>
-                    
-                
-                </div>
-            </div>
-<div class="morebtn">
-    <button class="more-btn">Explore all</button>
-</div>
-        </div>
-    </section>
-
-</div>
-<hr id="line">
-<div class="container4">
-    <section class="service" id="service">    
-        <h1>Have a look at our services!</h1>
-        <div class="row2">
-            <div class="servcard">
-                <div class="img">
-                    <i class="fas fa-plane-departure"></i>
-                </div>
-                <div class="serv-name">
-                    Best Flights
-                </div>
-                <div class="txt">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quis ullam possimus, maxime rerum aspernatur!</p>
-                </div>
-            </div>
-            <div class="servcard">
-                <div class="img">
-                    <i class="fas fa-rupee-sign"></i>
-                </div>
-                <div class="serv-name">
-                    Best deals
-                </div>
-                <div class="txt">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quis ullam possimus, maxime rerum aspernatur!</p>
-                </div>
-            </div>
-            <div class="servcard">
-                <div class="img">
-                    <i class="fas fa-subway"></i>
-                </div>
-                <div class="serv-name">
-                    Railway Bookings
-                </div>
-                <div class="txt">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quis ullam possimus, maxime rerum aspernatur!</p>
-                </div>
-            </div>
-        </div>
-    <div class="row1">
-        <div class="servcard">
-            <div class="img">
-                <i class="fas fa-utensils"></i>
-            </div>
-            <div class="serv-name">
-                Food And Drinks
-            </div>
-            <div class="txt">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quis ullam possimus, maxime rerum aspernatur!</p>
-            </div>
-        </div>
-        <div class="servcard">
-            <div class="img">
-                <i class="fas fa-hotel"></i>
-            </div>
-            <div class="serv-name">
-                Hotels
-            </div>
-            <div class="txt">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quis ullam possimus, maxime rerum aspernatur!</p>
-            </div>
-        </div>
-        <div class="servcard">
-            <div class="img">
-                <i class="fas fa-clinic-medical"></i>
-            </div>
-            <div class="serv-name">
-                Safe Travels
-            </div>
-            <div class="txt">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quis ullam possimus, maxime rerum aspernatur!</p>
-            </div>
-        </div>
-    </div>
-
-</section>
-</div>
-<hr id="line">
-<div class="container5" >
-<section class="contact" id="contact">
-    <h1>Get in touch with us.</h1>
-    <div class="rowlast">
-        <div class="contimg">
-            <img src="./media/Contact.png" id="contimg">
-        </div>
-        
-<div class="box">
-    <h2>Contact us <hr></h2>
-    <p>Write to us and we will get back to you shortly.</p>
-    <a href="#">
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Begin your adventures with us</h3>
+        <p>Explore the world with us for the best travel experience</p>
         <div class="btn">
-            <button class="cont-btn">Contact</button>
+          <button class="exp-btn">Explore</button>
         </div>
-    </a>
-   
-</div>
-    </div>
-</section>
-</div>
+      </div>
+      <div class="video-container">
+        <video src="./media/evening-bg.mp4" id="video-slider" loop autoplay muted></video>
+      </div>
 
-<div class="container6">
-    <section class="brand">
-
-        <div class="brandimgs">
-            <img src="./media/b1.png" id="brandimg">
-            <img src="./media/b2.png" id="brandimg">
-            <img src="./media/b3.png" id="brandimg">
-            <img src="./media/b4.png" id="brandimg">
+      <div class="info">
+        <div class="mail">
+          <i class="fas fa-envelope" id="ficons"></i>
+          <p>
+            <a href="mailto:info.trabebo@gmail.com">info.trabebo@gmail.com</a>
+          </p>
         </div>
+        <div class="socialm">
+          <i class="fab fa-instagram" id="ficons"></i>
+          <p>trabebo_1</p>
+        </div>
+        <div class="call">
+          <i class="fas fa-phone-alt" id="ficons"></i>
+          <p><a href="tel:7259987584">+91-7259987584</a></p>
+        </div>
+      </div>
     </section>
-</div>
+  </div>
+  <hr id="line" />
+  <div class="container2">
+    <section class="book" id="book">
+      <h1>Book your tickets now!</h1>
 
-<footer class="footer">
-<div class="fbox">
-    <div class="aboutus">
+      <div class="row">
+        <div class="image module">
+          <img src="./media/booking.png" id="flyimg" />
+        </div>
+        <div class="box module">
+          <h2>
+            Book Your tickets
+            <hr />
+          </h2>
+          <p>
+            One step away from booking your trip! What are you waiting for?
+          </p>
+          <a href="./other/contact.html">
+            <div class="btn">
+              <button class="book-btn">Book now</button>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <hr id="line" />
+  <div class="container3">
+    <section class="packages" id="packages">
+      <h1>Best Selling Destinations!</h1>
+      <div class="outerbox">
+        <h2>
+          Domestic
+          <hr />
+        </h2>
+        <div class="row1">
+          <div class="card module">
+            <div class="img">
+              <img src="./media/himachalbg.jpg" id="placeimg" />
+            </div>
+            <div class="cont">
+              <div class="name">
+                <i class="fas fa-map-marker-alt"></i> Himachal
+              </div>
+              <div class="abt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium repellat repudiandae iste veritatis cumque vitae!
+              </div>
+              <div class="price">$200 6D/5N</div>
+              <div class="go-btn">
+                <a href="./locations/himachal/himachal.html"><button class="gobtn">View plans</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="card module">
+            <div class="img">
+              <img src="./media/goa.jpg" id="placeimg" />
+            </div>
+            <div class="cont">
+              <div class="name">
+                <i class="fas fa-map-marker-alt"></i> Goa
+              </div>
+              <div class="abt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium repellat repudiandae iste veritatis cumque vitae!
+              </div>
+              <div class="price">$200 6D/5N</div>
+              <div class="go-btn">
+                <a href="./locations/goa/goa.html"><button class="gobtn">View plans</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="card module">
+            <div class="img">
+              <img src="./media/keralabg.jpg" id="placeimg" />
+            </div>
+            <div class="cont">
+              <div class="name">
+                <i class="fas fa-map-marker-alt"></i> Kerala
+              </div>
+              <div class="abt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium repellat repudiandae iste veritatis cumque vitae!
+              </div>
+              <div class="price">$200 6D/5N</div>
+              <div class="go-btn">
+                <a href="./locations/kerala/kerala.html"><button class="gobtn">View plans</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="card module">
+            <div class="img">
+              <img src="./media/rajasthan.jpg" id="placeimg" />
+            </div>
+            <div class="cont">
+              <div class="name">
+                <i class="fas fa-map-marker-alt"></i> Rajasthan
+              </div>
+              <div class="abt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium repellat repudiandae iste veritatis cumque vitae!
+              </div>
+              <div class="price">$200 6D/5N</div>
+              <div class="go-btn">
+                <a href="./locations/rajashthan/rajasthan.html"><button class="gobtn">View plans</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2>
+          International
+          <hr />
+        </h2>
+        <div class="row2">
+          <div class="card module">
+            <div class="img">
+              <img src="./media/dubai.jpg" id="placeimg" />
+            </div>
+            <div class="cont">
+              <div class="name">
+                <i class="fas fa-map-marker-alt"></i> Dubai
+              </div>
+              <div class="abt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium repellat repudiandae iste veritatis cumque vitae!
+              </div>
+              <div class="price">$200 6D/5N</div>
+              <div class="go-btn">
+                <a href="./locations/dubai/dubai.html"><button class="gobtn">View plans</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="card module">
+            <div class="img">
+              <img src="./media/europebg.jpg" id="placeimg" />
+            </div>
+            <div class="cont">
+              <div class="name">
+                <i class="fas fa-map-marker-alt"></i> Europe
+              </div>
+              <div class="abt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium repellat repudiandae iste veritatis cumque vitae!
+              </div>
+              <div class="price">$200 6D/5N</div>
+              <div class="go-btn">
+                <a href="./locations/europe/europe.html"><button class="gobtn">View plans</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="card module">
+            <div class="img">
+              <img src="./media/thailandbg.jpg" id="placeimg" />
+            </div>
+            <div class="cont">
+              <div class="name">
+                <i class="fas fa-map-marker-alt"></i> Thailand
+              </div>
+              <div class="abt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium repellat repudiandae iste veritatis cumque vitae!
+              </div>
+              <div class="price">$200 6D/5N</div>
+              <div class="go-btn">
+                <a href="./locations/thailand/thailand.html"><button class="gobtn">View plans</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="card module">
+            <div class="img">
+              <img src="./media/maldivesbg.jpg" id="placeimg" />
+            </div>
+            <div class="cont">
+              <div class="name">
+                <i class="fas fa-map-marker-alt"></i> Maldives
+              </div>
+              <div class="abt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium repellat repudiandae iste veritatis cumque vitae!
+              </div>
+              <div class="price">$200 6D/5N</div>
+              <div class="go-btn">
+                <a href="./locations/maldives/maldives.html"><button class="gobtn">View plans</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="morebtn">
+          <a href="./other/places.html"><button class="more-btn">Explore all</button></a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <hr id="line" />
+  <div class="container4">
+    <section class="service" id="service">
+      <h1>Have a look at our services!</h1>
+      <div class="row2">
+        <div class="servcard module">
+          <div class="img">
+            <i class="fas fa-plane-departure"></i>
+          </div>
+          <div class="serv-name">Best Flights</div>
+          <div class="txt">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Maiores quis ullam possimus, maxime rerum aspernatur!
+            </p>
+          </div>
+        </div>
+        <div class="servcard module">
+          <div class="img">
+            <i class="fas fa-rupee-sign"></i>
+          </div>
+          <div class="serv-name">Best deals</div>
+          <div class="txt">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Maiores quis ullam possimus, maxime rerum aspernatur!
+            </p>
+          </div>
+        </div>
+        <div class="servcard module">
+          <div class="img">
+            <i class="fas fa-subway"></i>
+          </div>
+          <div class="serv-name">Railway Bookings</div>
+          <div class="txt">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Maiores quis ullam possimus, maxime rerum aspernatur!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row1">
+        <div class="servcard module">
+          <div class="img">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <div class="serv-name">Food And Drinks</div>
+          <div class="txt">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Maiores quis ullam possimus, maxime rerum aspernatur!
+            </p>
+          </div>
+        </div>
+        <div class="servcard module">
+          <div class="img">
+            <i class="fas fa-hotel"></i>
+          </div>
+          <div class="serv-name">Hotels</div>
+          <div class="txt">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Maiores quis ullam possimus, maxime rerum aspernatur!
+            </p>
+          </div>
+        </div>
+        <div class="servcard module">
+          <div class="img">
+            <i class="fas fa-clinic-medical"></i>
+          </div>
+          <div class="serv-name">Safe Travels</div>
+          <div class="txt">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Maiores quis ullam possimus, maxime rerum aspernatur!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <hr id="line" />
+  <div class="container5">
+    <section class="contact" id="contact">
+      <h1>Get in touch with us.</h1>
+      <div class="rowlast">
+        <div class="contimg">
+          <img src="./media/Contact.png" id="contimg" />
+        </div>
+
+        <div class="box">
+          <h2>
+            Contact us
+            <hr />
+          </h2>
+          <p>Write to us and we will get back to you shortly.</p>
+          <a href="./other/contact.html">
+            <div class="btn">
+              <button class="cont-btn">Contact</button>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="fbox">
+      <div class="aboutus">
         <h2><span id="fdiff">A</span>bout us</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, ullam maxime ratione porro quaerat in?</p>
-    </div>
-    <div class="branch">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, ullam
+          maxime ratione porro quaerat in?
+        </p>
+      </div>
+      <div class="branch">
         <h2><span id="fdiff">B</span>ranch Location</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3847.2195600952487!2d75.12117641437735!3d15.364590962016948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d7356f725b09%3A0xe85a2e8c0e433478!2sOaks%202.0!5e0!3m2!1sen!2sin!4v1633436419361!5m2!1sen!2sin"  style="border:0;" id="map"  allowfullscreen="" loading="lazy"></iframe>
-    </div>
-    <div class="quicklinks">
-        <h2> <span id="fdiff">Q</span>uick Links</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3847.2195600952487!2d75.12117641437735!3d15.364590962016948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d7356f725b09%3A0xe85a2e8c0e433478!2sOaks%202.0!5e0!3m2!1sen!2sin!4v1633436419361!5m2!1sen!2sin"
+          style="border: 0" id="map" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="quicklinks">
+        <h2><span id="fdiff">Q</span>uick Links</h2>
         <ul>
-            <li><a href="#top">Home</a></li>
-            <li><a href="./other/bookings.html">Book</a></li>
-            <li><a href="#packages">Packages</a></li>
-            <li><a href="#service">Services</a></li>
-            <li><a href="./other/contact.html">Contact</a></li>   
-            
+          <li><a href="#top">Home</a></li>
+          <li><a href="./other/bookings.html">Book</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="./other/contact.html">Contact</a></li>
         </ul>
-    </div>
-    <div class="follow">
+      </div>
+      <div class="follow">
         <h2><span id="fdiff">F</span>ollow us</h2>
         <ul>
-            <li><a href="#" id="instagram"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#" id="facebook"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#" id="twitter"><i class="fab fa-twitter"></i></a></li>
+          <li>
+            <a href="#" id="instagram"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#" id="facebook"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#" id="twitter"><i class="fab fa-twitter"></i></a>
+          </li>
         </ul>
-
+      </div>
     </div>
-</div>
-<hr>
-<div class="copy">
-    <h2>Copyright &copy; <span id="fdiff">T</span>rabebo 2020-21 | All Rights Reserved</h2>
-</div>
-</footer>
-<script src="./app.js"></script>
+    <hr />
+    <div class="copy">
+      <h2>
+        Copyright &copy; <span id="fdiff">T</span>rabebo 2020-21 | All Rights
+        Reserved
+      </h2>
+    </div>
+  </footer>
+  <script src="./app.js"></script>
 </body>
 
 </html>
